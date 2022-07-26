@@ -70,7 +70,7 @@ https://inkscape.org/pt-br/
 
 https://www.irinablok.com/android
 
-https://www.youtube.com/embed/l2UDgpLz20M
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 https://www.android.com/intl/en_uk/history/#/donut
 
