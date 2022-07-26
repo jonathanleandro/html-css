@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, animi impedit, enim suscipit cum quae laudantium eveniet expedita nostrum deleniti voluptatibus voluptatum quia culpa? Consequuntur modi sunt ratione voluptate quod?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quidem laborum? In atque officia quidem adipisci ea velit magni voluptas molestiae eum ex, sint dolorem blanditiis praesentium molestias nemo odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequatur ipsa omnis aperiam laudantium impedit, unde enim blanditiis temporibus consectetur rerum nobis mollitia necessitatibus delectus magni quibusdam soluta eum doloribus.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium voluptatem, doloribus repellat vero doloremque, sequi obcaecati ratione aut esse quidem omnis aliquid nam tenetur modi recusandae deserunt dolore dolor impedit.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni rerum accusamus modi impedit similique pariatur? Nobis voluptas, consequatur similique qui provident corrupti nam ducimus, optio modi tempore quae natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, incidunt, veniam natus sit dolore ipsum quidem perspiciatis recusandae aliquam optio molestias ut vitae animi ipsam mollitia accusamus! Provident, consectetur maiores.</p>" id="tela" name="frame">
+        <p>Infelismente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae magni rerum accusamus modi impedit similique pariatur? Nobis voluptas, consequatur similique qui provident corrupti nam ducimus, optio modi tempore quae natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, incidunt, veniam natus sit dolore ipsum quidem perspiciatis recusandae aliquam optio molestias ut vitae animi ipsam mollitia accusamus! Provident, consectetur maiores.</p>
+</body>
+</html>
